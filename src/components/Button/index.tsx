@@ -6,7 +6,7 @@ import { Container } from './styles';
 const Button: React.FC = () => {
   return (
     <Container>
-      <Text>Teste</Text>
+      <Text>Testes</Text>
     </Container>
   );
 };
