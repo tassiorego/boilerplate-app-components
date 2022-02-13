@@ -1,5 +1,5 @@
 {
-  "name": "react-native-app-components",
+  "name": "app-components",
   "version": "0.1.0",
   "description": "Libary",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-app-components.podspec",
+    "app-components.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/tassiorego/react-native-app-components",
+  "repository": "https://github.com/tassiorego/app-components",
   "author": "Tássio Rego <tassiorego@gmail.com> (https://github.com/tassiorego)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tassiorego/react-native-app-components/issues"
+    "url": "https://github.com/tassiorego/app-components/issues"
   },
-  "homepage": "https://github.com/tassiorego/react-native-app-components#readme",
+  "homepage": "https://github.com/tassiorego/app-components#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -53,6 +53,8 @@
     "@types/jest": "^26.0.0",
     "@types/react": "^16.9.19",
     "@types/react-native": "0.62.13",
+    "@types/react-native-vector-icons": "^6.4.10",
+    "@types/styled-components-react-native": "^5.1.3",
     "commitlint": "^11.0.0",
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^7.0.0",
@@ -69,7 +71,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-vector-icons": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -143,5 +146,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^9.0.0",
+    "styled-components": "^5.3.3"
   }
 }

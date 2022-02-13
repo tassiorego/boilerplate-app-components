@@ -1,17 +1,17 @@
-# react-native-app-components
+# app-components
 
 Libary
 
 ## Installation
 
 ```sh
-npm install react-native-app-components
+npm install app-components
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-app-components";
+import { multiply } from "app-components";
 
 // ...
 

@@ -1,6 +1,6 @@
 {
-  "name": "react-native-app-components-example",
-  "description": "Example app for react-native-app-components",
+  "name": "app-components-example",
+  "description": "Example app for app-components",
   "version": "0.0.1",
   "private": true,
   "scripts": {
